@@ -163,8 +163,8 @@
             <div class="Netflix" style="font-size: 14px;">Netflix India</div>
             <div class="scroll">
                 <div class="sticky">
-                    <div class="wrapper" id="element">
-                        <p>^</p>
+                    <div class="wrapper opacity" id="element">
+                        <img src="https://cdn.hugeicons.com/icons/arrow-up-02-stroke-rounded.svg" alt="arrow-up-02" width="24" height="24" />
                     </div>
                 </div>
             </div>
@@ -173,6 +173,14 @@
 
     <script>
         
+        let timer;
+        window.addEventListener("scroll",()=>{
+            document.querySelector("#element").classList.remove("opacity");
+            clearTimeout(timer);
+            timer= setTimeout(() => {
+                document.querySelector("#element").classList.add("opacity");
+            }, 2000);
+        })
 
         document.querySelector("#element").addEventListener("click", ()=>{
             window.scrollTo({

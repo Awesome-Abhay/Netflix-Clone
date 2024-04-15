@@ -525,7 +525,7 @@ footer .grid{
 .footer .scroll .wrapper{
     height: 60px;
     width: 60px;
-    background-color: blue;
+    background-color: #414141a8;
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -533,6 +533,13 @@ footer .grid{
     position: sticky;
     bottom: 50px;
     cursor: pointer;
+    border-radius: 50%;
+}
+.footer .scroll .wrapper img{
+    filter: invert(1);
+}
+.opacity{
+    opacity: 0;
 }
 
 
