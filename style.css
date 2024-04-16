@@ -16,7 +16,7 @@ body{
 .header .background{
     position: relative;
     top: 0px;
-    background-image: url("./images/Background.jpg");
+    background-image: url("Background.jpg");
     /* background-position: center center; */
     /* object-fit: cover; */
     /* background-repeat: no-repeat; */
