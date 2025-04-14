@@ -432,19 +432,17 @@ nav .button2:hover{
 .faq-item{
     max-height: 75px;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    transition: max-height 0.5s ease-out;
 }
 .active{
-    /* height: auto; */
-    max-height: 1000px;
+    max-height: 300px;
 }
-/* .faq-item{
-    height: 200px;
-} */
+
 .faq-item .ans{
     padding: 20px;
     font-size: large;
 }
+
 .faq .wrapper .underFaqBox:hover{
     background-color: rgb(65 65 65);
     cursor:pointer;
