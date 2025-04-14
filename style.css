@@ -430,12 +430,13 @@ nav .button2:hover{
     background-color: #2d2d2d;
 }
 .faq-item{
-    height: 75px;
+    max-height: 75px;
     overflow: hidden;
-    transition: height 0.3s ease-out;
+    transition: max-height 0.3s ease-out;
 }
 .active{
-    height: 200px;
+    /* height: auto; */
+    max-height: 1000px;
 }
 /* .faq-item{
     height: 200px;
