@@ -39,6 +39,8 @@ const plusSvg= document.querySelectorAll(".plus");
 plusSvg.forEach((element)=>{
     element.addEventListener('click', (e)=>{
         let svg=e.target.closest('svg');
+        console.log(svg);
+        
         e.stopPropagation();
         const faqItem= e.target.closest('.faq-item');
         faqItem.classList.toggle('active');
